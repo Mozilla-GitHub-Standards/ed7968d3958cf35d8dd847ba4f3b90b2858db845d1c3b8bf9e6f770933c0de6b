@@ -15,3 +15,10 @@ Running it
 
 * `./bin/loads-runner loadtest.TilesRecordDataTest.test_click`
 
+TODO
+----
+
+* Makefile for encapsulating load testing configs / logic
+* send actual fake data to api endpoints
+* send good/bad (malformed) data to api endpoints
+* create configs to test load at: 100 req/sec, 1000 req/sec ... 100K req/sec
