@@ -1,0 +1,8 @@
+http://127.0.0.1:9999/view POST {"locale":"en-US","tiles":[{"id":1},{"id":2},{"id":3},{"id":4},{"id":6},{"id":7},{"id":8},{"id":9},{"id":10}]}
+http://127.0.0.1:9999/click POST {"locale":"en-US","tiles":[{"id":1,"pin":1},{"id":2},{"id":3},{"id":4},{"id":6},{"id":7},{"id":8},{"id":9},{"id":10}],"pin":0}
+http://127.0.0.1:9999/click POST {"locale":"en-US","tiles":[{"id":1},{"id":2},{"id":3},{"id":4},{"id":6},{"id":7},{"id":8},{"id":9},{"id":10}],"unpin":0}
+http://127.0.0.1:9999/click POST {"locale":"en-US","tiles":[{"id":1},{"id":2},{"id":3},{"id":4},{"id":6},{"id":7},{"id":8},{"id":9},{"id":10}],"block":0}
+http://127.0.0.1:9999/view POST {"locale":"en-US","tiles":[{"id":2},{"id":3},{"id":4},{"id":6},{"id":7},{"id":8},{"id":9},{"id":10}]}
+http://127.0.0.1:9999/view POST {"locale":"en-US","tiles":[{"id":5,"url":"http://m.load"},{"id":2},{"id":3},{"id":6},{"id":7},{"id":8},{"id":9},{"id":10}]}
+http://127.0.0.1:9999/view POST {"locale":"en-US","tiles":[{"id":5,"url":"http://m.load"},{"url":"http://twitter.com/firefox"},{"id":2},{"id":3},{"id":6},{"id":7},{"id":8},{"id":9},{"id":10}]}
+http://127.0.0.1:9999/view POST {"locale":"en-US","tiles":[{"id":5,"url":"http://m.load"},{"id":2},{"id":3},{"id":6},{"id":8},{"id":9},{"id":10},{"pin":1,"pos":8,"url":"http://twitter.com/firefox"}]}
